@@ -9,8 +9,100 @@
 		<title>WebChat</title>
 
 		<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+
 	</head>
 	<body>
+
+		<!-- Exemplo de utilização de grid do bootstrap. 
+
+			<div class="container-fluid" style="border: 2px solid black">
+			  <div class="row">
+			    <div class="col-sm" style="border: 2px solid red">
+			      One of three columns
+			    </div>
+			    <div class="col-sm" style="border: 2px solid yellow">
+			      One of three columns
+			    </div>
+			    <div class="col-sm" style="border: 2px solid blue">
+			      One of three columns
+			    </div>
+			  </div>
+			</div>
+
+			<div class="container">
+			  <div class="row" style="border: 2px solid black">
+			    <div class="col" style="border: 2px solid red">
+			      1 of 2
+			    </div>
+			    <div class="col" style="border: 2px solid red">
+			      2 of 2
+			    </div>
+			  </div>
+			  <div class="row" style="border: 2px solid black">
+			    <div class="col" style="border: 2px solid red">
+			      1 of 3
+			    </div>
+			    <div class="col" style="border: 2px solid red">
+			      2 of 3
+			    </div>
+			    <div class="col" style="border: 2px solid red">
+			      3 of 3
+			    </div>
+			     <div class="col" style="border: 2px solid red">
+			      4 of 3
+			    </div>
+			  </div>
+			</div>
+
+		-->
+
+		<!-- Início div header. -->
+		<div class="header">
+			<div class="container-fluid full-height">
+				<div class="row">
+					
+					<!-- <div class="col-4" style="border: 2px solid red">1</div> -->
+					<div id="main" class="col-md-4 offset-md-4">
+
+						<img id="logo" src="assets/images/logo.png" style="width: 80%">
+
+						<br>
+
+						<form id="infoUser">
+
+							<p>
+							<input class="form-control" type="text" name="user" required="true">
+							</p>
+							<!-- <br> -->
+							<p>
+							<input class="btn btn-primary form-control" type="submit" value="Enviar">	
+							</p>
+							<!-- <br> -->
+							<p>
+							<button type="button" class="btn btn-secondary form-control">Desconectar usuários</button>
+							</p>
+							<!-- <br> -->
+							<p>
+							<button type="button" class="btn btn-secondary form-control">Limpar mensagens</button>
+							</p>
+						</form>
+					
+					</div>
+					<!-- <div class="col-4" style="border: 2px solid red">3</div> -->
+
+				</div>
+			</div>
+		</div>
+		<!-- Fim div header -->
+
+		<!-- Início div footer -->
+		<div class="container">
+			<div class="row">
+				<div class="col-12"> &copy 2017 - Rafael Olmedo </div>
+			</div>
+		</div>
+		<!-- Fim div footer -->
 
 		<script src="assets/js/jquery-3.2.1.min.js" charset="utf-8"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>

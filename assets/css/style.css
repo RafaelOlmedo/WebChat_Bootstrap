@@ -1,0 +1,49 @@
+html, body{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.full-height{
+    height: 100%;
+}
+
+.row{
+    height: 100%;
+}
+
+.col-12{
+	position: fixed;    
+    bottom: 0px;
+    left: 0px;    
+    height: 30px;
+    width: 100%;
+    font-size: 80%;
+    text-align: center;
+    background-color: #1C1F40;
+    color: white;
+}
+
+.header{
+    background-color: #6470E5;
+    height: 100%;   
+}
+
+#main{
+	background-color: #8C7DFF;    
+	text-align: center;
+    height: 100%;
+}
+
+#infoUser{	
+    margin-top: 20px;
+	width: 60%;
+	margin-bottom: 30px;*/
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn-secondary{
+    background-color: white;
+    color: black;
+}
