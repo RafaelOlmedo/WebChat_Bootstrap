@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="allHTML">
 	<head>
 
 		<meta charset="utf-8">
@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="assets/css/style.css">
 
 	</head>
-	<body>
+	<body id="indexBody">
 
 		<!-- Exemplo de utilização de grid do bootstrap. 
 
@@ -59,7 +59,7 @@
 
 		<!-- Início div header. -->
 		<div class="header">
-			<div class="container-fluid full-height">
+			<div class="container-fluid full-height colunas">
 				<div class="row">
 					
 					<!-- <div class="col-4" style="border: 2px solid red">1</div> -->
@@ -80,11 +80,11 @@
 							</p>
 							<!-- <br> -->
 							<p>
-							<button type="button" class="btn btn-secondary form-control">Desconectar usuários</button>
+							<button id="btnDisconnectUsers" type="button" class="btn btn-secondary form-control">Desconectar usuários</button>
 							</p>
 							<!-- <br> -->
 							<p>
-							<button type="button" class="btn btn-secondary form-control">Limpar mensagens</button>
+							<button id="btnClearAllMessages" type="button" class="btn btn-secondary form-control">Limpar mensagens</button>
 							</p>
 						</form>
 					

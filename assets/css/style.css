@@ -1,12 +1,22 @@
 html, body{
-    height: 100%;
     padding: 0px;
     margin: 0px;
+
 }
 
-.full-height{
+#indexBody, #allHTML{
     height: 100%;
+
 }
+
+.colunas{
+    height: 100%;
+
+}
+
+/*.full-height{
+    height: 100%;
+}*/
 
 .row{
     height: 100%;
@@ -75,9 +85,17 @@ html, body{
 }
 
 /*VALIDAR COM ANGELITO
-    PQ ao alterar o tamanho do componente ele joga pra baixo.
+   
     Como fazer para tirar as partes dos lados (height), utilizando o mesmo CSS
 */
+
+#messages{
+   /* overflow-y: scroll;
+    height: 100%;*/
+
+    margin-bottom: 70px;
+
+}
 #message{
     width: 79%;
 }
@@ -103,8 +121,25 @@ hr{
     width: 70%;
     background-color: white;
     margin-top: 5px;
+    margin-bottom: 0px;
 }
 
 #connectedUsers{
-    font-size: smaller;
+    font-size: x-small;
+    margin-top: 0px;
 }
+
+.alert{
+    /*padding: 0px;*/
+    margin-bottom: 2px;
+}
+
+.alert-light{
+    text-align: left;
+}
+
+.alert-info{ 
+    text-align: right;
+}
+
+
